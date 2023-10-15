@@ -52,7 +52,6 @@ public class Activator : MonoBehaviour
    {
         if ((other.tag == "Interactable"))
         {
-            
             isInRange =true;
             inputButtonImage.SetActive(true);
             Debug.Log("4st stage");
@@ -64,7 +63,7 @@ public class Activator : MonoBehaviour
            
             else 
             {
-                Debug.Log("нет ключа ");
+                Debug.Log("нет ключа");
             }
         }
             
